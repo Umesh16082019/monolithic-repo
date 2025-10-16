@@ -1,6 +1,6 @@
 variable "ami_id" {
 type = string
-default = "ami-03eb6185d756497f8"
+default = "ami-07e8b2965ab649709"
 }
 
 variable "itype" {
@@ -10,7 +10,7 @@ default = "t2.micro"
 
 variable "kn" {
 type = string
-default = "project-keypair"
+default = "umesh"
 }
 
 variable "iname" {
